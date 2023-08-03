@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desain Situs Web Untuk Pasangan | Menggunakan HTML, CSS, JavaScript, dan GSAP</title>
+    <meta name="description" content="Temukan web desain romantis terbaik untuk mengekspresikan cinta dan kasih akung kamu kepada pacar kamu. Website ini didedikasikan untuk pacar aku Alen Priyanto">
+    <meta name="keywords" content="desain web dengan gsap, desain web untuk pasangan, desain web romantis, desain web romantis">
+
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./assets/css/css.css">
+
+    <!-- Link JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    
+    <!-- Link Font -->
+    <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+<body style="overflow-x: hidden;">
+
+
+    <!-- Bagian Navbar -->
+
+    <nav class="navbar navbar-expand-lg navBar navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand title-5 text-shadow-pink white-font navBar-hover" href="index.html" id="home-nav">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link title-4 link-style dropdown-toggle white-font styling-btn text-shadow-pink navBar-hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Bahasa
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item title-4 text-shadow-pink" href="#">Indonesia</a></li>
+                <li><a class="dropdown-item title-4 text-shadow-pink" href="#">English</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link title-4 link-style white-font styling-btn text-shadow-pink navBar-hover" aria-current="page" onClick="scrollToBottom()">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link title-4 link-style white-font styling-btn text-shadow-pink navBar-hover" href="error404.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link title-4 styling-btn link-style white-font styling-btn text-shadow-pink navBar-hover" href="https://www.instagram.com/roncraftcode/">Pesan</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  <!-- Akhir dari Navbar -->
+
+<!-- Section 1 -->
+  <div class="Section1 BgS1">
+    <div class="bigBox"></div>
+    <img src="./assets/image/hati/hati-png.png" alt="" class="ukuran-hati" id="hati1">
+    <img src="./assets/image/hati/hati2.png" alt="" class="ukuran-hati" id="hati2">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center" style="overflow: hidden;">
+          <h1 class="h1">fall in love</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-sm-10 text-center">
+            <button class="ButtonSection1" data-bs-toggle="modal" data-bs-target="#myModal">Click Me..</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Section 1 -->
+
+  <!-- Section 2 -->
+  <div class="Section2">
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="bdr-section2">
+            <div class="col">
+              <h2 class="text-center mb-0 title-2 h2s2">Ronan & Alen</h2>
+              <p class="text-center mx-auto mt-3 sec2pg1">Cinta sejati tidak selalu mudah. Ini adalah perjalanan yang penuh dengan pasang surut, liku-liku, dan rintangan. Namun, mereka yang benar-benar saling mencintai tahu bahwa perjalanan itu sangat berharga.</p>
+              <div class="row justify-content-center">
+                <div class="col-lg-10 wrapper-sec2">
+                  <div class="slider">
+                    <img src="./assets/image/kumpulan-foto-bersama.png" alt="" class="foto-bersama">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gx-0 justify-content-center">
+            <div class="col-lg-7 col-sm-10 text-center bdr">
+              <div class="kartu">
+                  <div class="kartu-depan raining-bg">
+                    <img src="./assets/image/kecil1.png" class="gambar" alt="">
+                    <h3 class="title-3 h3s2">Ronan</h3>
+                    <p class="sec2pg2">Aku mencintai kamu apa adanya, semua yang telah kamu lakukan dan akan menjadi apa kamu kedepannya.</p>
+                    <p class="sec2pg3">23-07-2002</p>
+                  </div>
+                  <div class="kartu-belakang sunny-bg">
+                    <img src="./assets/image/kecil.png" class="gambar" alt="">
+                    <h3 class="title-3 h3s2">Alen</h3>
+                    <p class="sec2pg2">aku cemburu karena aku takut seseorang akan membuat kamu lebih bahagia daripada aku.</p>
+                    <p class="sec2pg3">06-08-2002</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Akhir Section 2  -->
+
+          
+<!-- Section 3 -->
+<div class="Section3">
+  <div class="container">
+    <div class="row text-center justify-content-center jarak-64">
+      <div class="col-md-2 col-1" id="tempat-bunga1">
+        <img loading="lazy" src="./assets/image/hati/bunga-reverse.png" alt="" class="bunga" id="bunga1">
+      </div>
+      <div class="col-md-8">
+        <h2 class="title-2 h2s3">Mari Kita Lihat Kembali Sejenak</h2>
+      </div>
+      <div class="col-md-2 col-1" id="tempat-bunga2">
+        <img loading="lazy" src="./assets/image/hati/bunga.png" alt="" class="bunga" id="bunga2">
+      </div>
+    </div>
+    <div class="row">
+     <div class="wrapper-tabs">
+      <div class=" nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+        <div class="nav-item" role="presentation">
+          <button class="nav-link btn-tabs active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab"  aria-selected="true">1'st Page</button>
+        </div>
+        <div class="nav-item" role="presentation">
+          <button class="nav-link btn-tabs" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-selected="false">2'nd Page</button>
+        </div>
+        <div class="nav-item" role="presentation">
+          <button class="nav-link btn-tabs" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-selected="false">3'rd Page</button>
+        </div>
+        <div class="nav-item" role="presentation">
+          <button class="nav-link btn-tabs" id="contact-tab1" data-bs-toggle="tab" data-bs-target="#contact-tab1-pane" type="button" role="tab" aria-selected="false">4'th Page</button>
+        </div>
+        <div class="nav-item" role="presentation">
+          <button class="nav-link btn-tabs" id="contact-tab2" data-bs-toggle="tab" data-bs-target="#contact-tab2-pane" type="button" role="tab" aria-selected="false">5'th Page</button>
+        </div>
+      </div>
+      <div class="tab-content" id="myTabContent">
+        <!-- isi content 1 -->
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" tabindex="0">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-5">
+              <img src="./assets/image/IMG_20171017_133511.jpg.png" alt="" class="image-size-tabs">
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+              <h3 class="title-3 m-0">Cerita Sekolah Menengah Atas Kami</h3>
+              <p class="desc-1">Pertemuan kami terjadi di awal kelas 10. Izinkan aku menceritakan kembali kisah bagaimana kami pertama kali bertemu. Setiap memulai jenjang baru di sekolah, selalu ada yang namanya "MPLS" atau masa pengenalan lingkungan sekolah. Kegiatan ini diadakan untuk mengenal lingkungan sekolah dan berkenalan dengan siswa baru lainnya. Pada saat itulah aku melihatmu untuk pertama kalinya, dan aku menyukaimu. Aku memperhatikan caramu duduk, senyummu, hingga aku berusaha menarik perhatianmu. Perlahan-lahan aku mulai mencari tahu siapa namamu dan mulai mendekatimu. Hingga tiba saatnya dan aku siap untuk menyatakan cintaku padamu. Pada tanggal 1 Agustus 2017 kamu resmi menjadi kekasihku.</p>
+              <p class="desc-special m-0">"1 Agustus 2017"</p>
+            </div>
+          </div>
+        </div>
+        <!-- isi content 2 -->
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" tabindex="0">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-5">
+              <img src="./assets/image/IMG_1212121jpg.png" alt="" class="image-size-tabs">
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+              <h3 class="title-3 m-0">Perjuangan Dalam Hubungan Kita</h3>
+              <p class="desc-1">Jika kita ingat, kita mengalami cukup banyak perbedaan pendapat dalam hubungan selama masa sekolah. Namun dalam hubungan, perbedaan pendapat bukanlah hal yang aneh. Justru hal itu dapat memperkuat dan mendekatkan kita lagi. Dulu, kami masih kesulitan untuk dating karena belum bisa berkendara. Jadi, kita quality time 80% di area sekolah. Berkat kamu, aku menjadi orang yang rajin belajar dan mulai memikirkan masa depanku. Sebelum bertemu denganmu, aku adalah orang yang malas dan pekerjaanku hanya nongkrong hampir setiap hari. Menghabiskan uang tanpa memikirkan masa depan. Sejak aku bersamamu, aku mulai menyadari bahwa aku ingin hidup bersamamu selamanya. Oleh karena itu, aku ingin berubah menjadi orang yang lebih baik agar bisa hidup bersamamu di masa depan.</p>
+            </div>
+          </div>
+        </div>
+        <!-- isi content 3 -->
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" tabindex="0">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-5">
+              <img src="./assets/image/1603530834778.jpeg.png" alt="" class="image-size-tabs">
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+              <h3 class="title-3 m-0">Apakah Ada Kemajuan dalam Hubungan Kita?</h3>
+              <p class="desc-1">Ya tentu saja. Setiap masalah kita dapat dilewati seiring berjalannya waktu. Terima kasih kepada Tuhan yang telah memberi kami kesempatan untuk menjalani hubungan ini. Sekarang kami bisa quality time di mana pun yang kami mau. Kami bisa menghabiskan lebih banyak waktu bersama daripada sebelumnya. Yang terpenting adalah kami semakin dekat satu sama lain dan mengenal keluarga masing-masing. Aku tahu masalah dalam hubungan akan selalu muncul, tapi aku berjanji untuk menjaga hubungan ini karena aku mencintaimu. Masalah bukanlah alasan untuk mengakhiri sebuah hubungan.</p>
+            </div>
+          </div>
+        </div>
+         <!-- isi content 4 -->
+        <div class="tab-pane fade" id="contact-tab1-pane" role="tabpanel" tabindex="0">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-5">
+              <img src="./assets/image/movie-date.png" alt="" class="image-size-tabs">
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+              <h3 class="title-3 m-0">Tentang Date Kita</h3>
+              <p class="desc-1">Di segmen ini, aku akan bercerita tentang hal-hal yang aku sukai saat berpacaran denganmu. Aku suka menjemputmu dari rumahmu, karena aku bisa melihat senyummu yang indah. Aku suka kita pergi bersama ke tempat kencan kita. aku suka kita berpegangan tangan saat kita pergi bersamamu. Aku suka makan makanan yang aku suka sambil melihat kamu didepanku. aku suka ambiguitas yang kita berdua miliki dalam hal lelucon. Aku suka menonton film saat berkencan dengan kamu karena bisa berpegangan tangan dan berskamur pada kamu. Setelah menonton, aku suka jika kita membeli makanan penutup atau makanan ringan lainnya. Hal terakhir adalah aku suka ketika kita menghabiskan waktu untuk berkomunikasi hingga larut malam sampai aku harus pulang. Yang tidak aku sukai adalah ketika aku harus berpisah dengan kamu karena kita akan bertemu lagi minggu depan.
+            </div>
+          </div>
+        </div>
+         <!-- isi content 5 -->
+        <div class="tab-pane fade" id="contact-tab2-pane" role="tabpanel" tabindex="0">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-5">
+              <img src="./assets/image/112233.png" alt="" class="image-size-tabs">
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+              <h3 class="title-3 m-0">Pesanku untuk Kamu Alen</h3>
+              <p class="desc-1">Terima kasih telah menerima aku sebagai pasangan kamu. Aku sangat bersyukur telah menjalani 5 tahun ini bersamamu. Mengobrol setiap hari, berkencan setiap minggu. Aku pernah membayangkan bahwa aku tidak pernah bertemu denganmu, menghambur-hamburkan uang dan tidak tahu arti menabung, malas belajar, dan tidak punya tujuan hidup. Dengan kehadiranmu, aku menemukan tujuan hidupku. Aku ingin berusaha agar kelak di masa depan aku bisa hidup bersamamu selamanya. Terima kasih telah menjadi wanita yang sabar, perhatian dan penyayang. Aku di sini akan berusaha untuk menjadi lebih sabar dan bisa menjadikanmu ratuku.</p>
+              <p class="desc-special m-0">Janji untuk Selalu Menjaga dan Mencintaimu</p>
+              <p class="desc-1 m-0">~Ronan~</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="Section4">
+    <div class="container">
+      <h2 class="title-2 jarak-64 text-center">Mari Kita Terbang Bersama</h2>
+      <div class="row hide-in-mobile">
+        <img src="./assets/image/Flying-airplane-vector-PNG (1) (1).png" alt="" class="airplane1">
+        <div class="col-lg-6 slide1">
+          <p class="desc-special1 m-0">Sejak 2017</p>
+          <p class="desc-special2 m-0">Kita bertemu di sekolah menengah atas</p>
+        </div>
+        <div class="col-lg-6">
+          
+        </div>
+      </div>
+
+      <div class="row hide-in-mobile">
+        <div class="col-lg-6">
+          
+        </div>
+        <div class="col-lg-6  text-end slide2">
+          <p class="desc-special1 m-0">1 Agustus 2018</p>
+          <p class="desc-special2 m-0">1 Tahun Hubungan Kita</p>
+        </div>
+      </div>
+
+      <div class="row hide-in-mobile">
+        <div class="col-lg-6 slide3">
+          <p class="desc-special1 m-0">1 Agustus 2019</p>
+          <p class="desc-special2 m-0">2 Tahun Hubungan Kita</p>
+        </div>
+        <div class="col-lg-6">
+          
+        </div>
+      </div>
+
+      <div class="row hide-in-mobile">
+        <div class="col-lg-6">
+          
+        </div>
+        <div class="col-lg-6 text-end slide4">
+          <p class="desc-special1 m-0">1 Agustus 2020</p>
+          <p class="desc-special2 m-0">3 Tahun Hubungan Kita</p>
+        </div>
+      </div>
+
+      <div class="row hide-in-mobile">
+        <div class="col-lg-6 slide5">
+          <p class="desc-special1 m-0">1 Agustus 2021</p>
+          <p class="desc-special2 m-0">4 Tahun Hubungan Kita</p>
+        </div>
+        <div class="col-lg-6">
+          
+        </div>
+      </div>
+
+      <div class="row hide-in-mobile">
+        <div class="col-lg-6">
+
+        </div>
+        <div class="col-lg-6  text-end slide6">
+          <p class="desc-special1 m-0">1 Agustus 2022</p>
+          <p class="desc-special2 m-0">5 Tahun Hubungan Kita</p>
+        </div>
+      </div>
+
+      <div class="row hide-in-mobile">
+        <div class="col-lg-6 slide7">
+          <p class="desc-special1 m-0">1 Agustus 2023</p>
+          <p class="desc-special2 m-0">6 Tahun Hubungan Kita</p>
+        </div>
+        <div class="col-lg-6">
+          
+        </div>
+      </div>
+
+
+      <div class="row hide-in-mobile">
+        <div class="col-lg-6">
+          
+        </div>
+        <div class="col-lg-6 text-end slide8">
+          <p class="desc-special1 m-0">Nantikan Kelanjutannya...</p>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="row hide-in-dekstop">
+        <img src="./assets/image/Flying-airplane-vector-PNG (1) (1).png" alt="" class="airplane2">
+        <div class="col-lg-6 slide9">
+          <p class="desc-special1 m-0">Sejak 2017</p>
+          <p class="desc-special2 ">Kita bertemu di sekolah menengah atas</p>
+        </div>
+        <div class="col-lg-6">
+          
+        </div>
+      </div>
+
+      <div class="row hide-in-dekstop">
+        <div class="col-lg-6">
+          
+        </div>
+        <div class="col-lg-6  text-end slide10">
+          <p class="desc-special1 m-0">1 Agustus 2018</p>
+          <p class="desc-special2 ">1 Tahun Hubungan Kita</p>
+        </div>
+      </div>
+
+      <div class="row hide-in-dekstop">
+        <div class="col-lg-6 slide11">
+          <p class="desc-special1 m-0">1 Agustus 2019</p>
+          <p class="desc-special2 ">2 Tahun Hubungan Kita</p>
+        </div>
+        <div class="col-lg-6">
+          
+        </div>
+      </div>
+
+      <div class="row hide-in-dekstop">
+        <div class="col-lg-6">
+          
+        </div>
+        <div class="col-lg-6 text-end slide12">
+          <p class="desc-special1 m-0">1 Agustus 2020</p>
+          <p class="desc-special2">3 Tahun Hubungan Kita</p>
+        </div>
+      </div>
+
+      <div class="row hide-in-dekstop">
+        <div class="col-lg-6 slide13">
+          <p class="desc-special1 m-0">1 Agustus 2021</p>
+          <p class="desc-special2 ">4 Tahun Hubungan Kita</p>
+        </div>
+        <div class="col-lg-6">
+          
+        </div>
+      </div>
+
+      <div class="row hide-in-dekstop">
+        <div class="col-lg-6">
+
+        </div>
+        <div class="col-lg-6  text-end slide14">
+          <p class="desc-special1 m-0">1 Agustus 2022</p>
+          <p class="desc-special2">5 Tahun Hubungan Kita</p>
+        </div>
+      </div>
+
+      <div class="row hide-in-dekstop">
+        <div class="col-lg-6 slide15">
+          <p class="desc-special1 m-0">1 Agustus 2023</p>
+          <p class="desc-special2 ">6 Tahun Hubungan Kita</p>
+        </div>
+        <div class="col-lg-6">
+          
+        </div>
+      </div>
+
+
+      <div class="row hide-in-dekstop">
+        <div class="col-lg-6">
+          
+        </div>
+        <div class="col-lg-6 text-end slide16">
+          <p class="desc-special1">Nantikan Kelanjutannya...</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!-- footer-->
+<div class="footer footer-bg" style="overflow: hidden;">
+  <div class="container container-footer-bg" style="position: relative;" id="footer-buble">
+    <div class="row gx-0 gx-sm-3 mt-lg-0 mt-5" id="moving-up">
+      <div class="col-lg-3 col-md-4 my-lg-5 col-6 line-left col1" style="overflow: hidden;">
+        <a href="index.html" class="decoration-none white-font"><P class="title-4 mb-sm-3 mb-2 opacity-50persen">Home</P></a>
+        <a href="error404.html" class="decoration-none white-font"><P class="title-4 mb-sm-3 mb-2 opacity-50persen">Blog</P></a>
+        <a href="https://www.instagram.com/roncraftcode/" class="decoration-none white-font"><P class="title-4 mb-sm-3 mb-2 opacity-50persen">Bsinis</P></a>
+        <a href="https://discordapp.com/users/476009868742885407/" class="decoration-none white-font"><P class="title-4 mb-sm-3 mb-2 opacity-50persen">kontak Saya</P></a>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-6 my-lg-5 line-left col2" style="overflow: hidden;">
+        <a href="error404.html" class="decoration-none white-font"><P class="title-4 mb-sm-3 mb-2 opacity-50persen">FAQ</P></a>
+        <a href="error404.html" class="decoration-none white-font"><P class="title-4 mb-sm-3 mb-2 opacity-50persen">Portofolio</P></a>
+        <a href="https://www.instagram.com/roncraftcode/" class="decoration-none white-font"><P class="title-4 mb-sm-3 mb-2 opacity-50persen">Pesan</P></a>
+        <a href="error404.html" class="decoration-none white-font"><P class="title-4 mb-sm-3 mb-2 opacity-50persen">Lihat Selengkapnya..</P></a>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-6 my-lg-5 line-left hide-small-mobile col3" style="overflow: hidden;">
+        <a href="error404.html" class="decoration-none white-font"><P class="title-4 mb-3 opacity-50persen">Halaman Lain</P></a>
+        <a href="error404.html" class="decoration-none white-font"><P class="title-4 mb-3 opacity-50persen">Halaman Lain</P></a>
+        <a href="error404.html" class="decoration-none white-font"><P class="title-4 mb-3 opacity-50persen">Halaman Lain</P></a>
+        <a href="error404.html" class="decoration-none white-font"><P class="title-4 mb-3 opacity-50persen">Halaman Lain</P></a>
+      </div>
+      <div class="col-lg-3 col-md-4 my-lg-5 line-left hide-in-mobile col4" style="overflow: hidden;">
+        <div class="wrapper-footer">
+          <h2 class="title-4 mb-2 white-font" style="opacity: 50%;">Tentang Saya sebagai Creator</h2>
+          <div class="mb-4">
+              <a href="https://www.instagram.com/patricius_ronan/"><img src="./assets/image/instagram.png" alt="" class="sosmed-footer opacity-50persen"></a>
+              <a href="https://www.linkedin.com/in/patricius-koswari-1614671a9/"><img src="./assets/image/linkedin.png" alt="" class="sosmed-footer opacity-50persen ms-lg-2"></a>
+              <a href="https://discordapp.com/users/476009868742885407/"><img src="./assets/image/discord.png" alt="" class="sosmed-footer opacity-50persen ms-lg-2"></a>
+          </div>
+          <h2 class="title-4 mb-2 white-font" style="opacity: 50%;">Tentang Pacar Saya</h2>
+          <div class="mb-3">
+              <a href="https://www.instagram.com/alenpriyanto/"><img src="./assets/image/instagram.png" alt="" class="sosmed-footer opacity-50persen"></a>
+              <a href="https://www.linkedin.com/in/alen-priyanto-kencana-098309212/"><img src="./assets/image/linkedin.png" alt="" class="sosmed-footer opacity-50persen ms-lg-2"></a>
+              <a href="https://www.tiktok.com/@pumpkin_pumpp?_t=8e8kQk2lYnq&_r=1"><img src="./assets/image/tiktok.png" alt="" class="sosmed-footer opacity-50persen ms-lg-2"></a>
+        
+          </div>
+        </div>
+      </div>
+      <div class="row hide-in-dekstop mt-sm-4 mt-3 gx-0">
+        <div class="col-md-4 col-sm-6 col5">
+          <h2 class="title-4 mb-2 white-font" style="opacity: 50%;">Tentang Saya sebagai Creator</h2>
+          <div class="mb-4">
+              <a href="https://www.instagram.com/patricius_ronan/"><img src="./assets/image/instagram.png" alt="" class="sosmed-footer opacity-50persen"></a>
+              <a href="https://www.linkedin.com/in/patricius-koswari-1614671a9/"><img src="./assets/image/linkedin.png" alt="" class="sosmed-footer opacity-50persen ms-2"></a>
+              <a href="https://discordapp.com/users/476009868742885407/"><img src="./assets/image/discord.png" alt="" class="sosmed-footer opacity-50persen ms-2"></a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col6">
+          <h2 class="title-4 mb-2 white-font" style="opacity: 50%;">Tentang Pacar Saya</h2>
+          <div class="mb-4">
+              <a href="https://www.instagram.com/alenpriyanto/"><img src="./assets/image/instagram.png" alt="" class="sosmed-footer opacity-50persen"></a>
+              <a href="https://www.linkedin.com/in/alen-priyanto-kencana-098309212/"><img src="./assets/image/linkedin.png" alt="" class="sosmed-footer opacity-50persen ms-2"></a>
+              <a href="https://www.tiktok.com/@pumpkin_pumpp?_t=8e8kQk2lYnq&_r=1"><img src="./assets/image/tiktok.png" alt="" class="sosmed-footer opacity-50persen ms-2"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row lg-justify-content-center gx-0">
+        <div class="col-lg-12 under-footer text-end text-lg-center">
+          <p id="timer" class="my-3" onclick="addNewClass()"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <a href="https://discordapp.com/users/476009868742885407/"><img src="./assets/image/text-icon.png" alt="" class="texting-icon"></a>
+
+  <style>
+    .texting-icon{
+      position:fixed;
+      right: 20px;
+      bottom: 50px;
+      max-width: 70px;
+      animation: textgerak 8s infinite ease-in-out;
+      transition: all 0.2s ease;
+    }
+    .texting-icon:hover{
+      max-width: 75px;
+    }
+
+
+
+    @keyframes textgerak{
+      0%{
+        transform: translateY(0px);
+        opacity: 60%;
+      }
+      80%{
+        transform: translateY(0px);
+        opacity: 60%;
+      }
+      85%{
+        transform: translateY(-30px) rotate(40deg);
+        opacity: 100%;
+      }
+      90%{
+        transform: translateY(-30px) rotate(-40deg);
+        opacity: 100%;
+      }
+
+
+      100%{
+        transform: translateY(0px);
+        opacity: 60%;
+      }
+    }
+
+    @media (max-width:991.4px){
+      .texting-icon{
+      bottom: 30px;
+      max-width: 50px;
+    }
+    .texting-icon:hover{
+      max-width: 55px;
+    }
+    }
+  </style>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="./js.js"></script>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 1100px;">
+      <div class="modal-content" style="background: none; border: none;">
+        <div class="modal-body">
+          <iframe style="width:100%; height: 600px; border-radius: 5px;" src="https://www.youtube.com/embed/YudHcBIxlYw">
+          </iframe>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+      <script type="text/javascript">
+          $("#myModal").on('hidden.bs.modal', function (e) {
+          $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
+      });
+  </script>
+
+
+<script>
+
+function scrollToBottom() {
+      // Menggunakan window.scrollTo untuk mengatur posisi scroll pada sumbu Y ke paling bawah
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+
+
+
+// Script untuk menghitung hari bersama
+var startDate = new Date('2017-08-01');
+
+// Fungsi untuk menghitung selisih hari
+function hitungSelisihHari(tanggalAwal, tanggalAkhir) {
+  var oneDay = 24 * 60 * 60 * 1000; // Satu hari dalam milidetik
+  var selisih = Math.round(Math.abs((tanggalAwal - tanggalAkhir) / oneDay));
+  return selisih;
+}
+
+// Fungsi untuk memperbarui timer setiap detik
+function updateTimer() {
+  var currentDate = new Date();
+  var selisihHari = hitungSelisihHari(startDate, currentDate);
+  document.getElementById('timer').innerText = selisihHari + ' Days Together';
+}
+
+// Memperbarui timer setiap detik
+setInterval(updateTimer, 1000);
+
+
+
+
+</script>
+    
+</body>
+</html>
