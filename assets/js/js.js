@@ -20,9 +20,9 @@ gsap.from(".h1", {
 
 
 gsap.from(".bdr-section2",{
-    y:200,
+    y:300,
     opacity:-2,
-    duration:1.5,
+    duration:1.7,
     scrollTrigger:{
         trigger:".Section2",
         start:"10% 80%",
@@ -31,9 +31,9 @@ gsap.from(".bdr-section2",{
 })
 
 gsap.from(".kartu",{
-    y:300,
+    y:500,
     opacity:-2,
-    duration:1.5,
+    duration:1.7,
     scrollTrigger:{
         trigger:".Section2",
         start:"60% 80%",
