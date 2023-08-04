@@ -22,7 +22,7 @@ gsap.from(".h1", {
 gsap.from(".bdr-section2",{
     y:200,
     opacity:-2,
-    duration:2,
+    duration:1.5,
     scrollTrigger:{
         trigger:".Section2",
         start:"10% 80%",
@@ -33,7 +33,7 @@ gsap.from(".bdr-section2",{
 gsap.from(".kartu",{
     y:300,
     opacity:-2,
-    duration:2,
+    duration:1.5,
     scrollTrigger:{
         trigger:".Section2",
         start:"60% 80%",
@@ -45,7 +45,7 @@ gsap.from(".kartu",{
 gsap.from(".h2s2",{
     y:50,
     opacity:-2,
-    duration:2.5,
+    duration:2,
     scrollTrigger:{
         trigger:".Section2",
         start:"10% 80%",
@@ -56,7 +56,8 @@ gsap.from(".h2s2",{
 gsap.from(".sec2pg1",{
     y:50,
     opacity:-2,
-    duration:3,
+    duration:1.5,
+    delay:1,
     scrollTrigger:{
         trigger:".Section2",
         start:"10% 80%",
@@ -65,9 +66,9 @@ gsap.from(".sec2pg1",{
 })
 
 gsap.from(".h2s3",{
-    y:300,
+    y:200,
     opacity:-2,
-    duration:2,
+    duration:1.5,
     scrollTrigger:{
         trigger:".Section3",
         start:"10% 80%",
@@ -78,7 +79,7 @@ gsap.from(".h2s3",{
 gsap.from(".wrapper-tabs",{
     y:300,
     opacity:-2,
-    duration:2,
+    duration:1.5,
     scrollTrigger:{
         trigger:".Section3",
         start:"25% 80%",
