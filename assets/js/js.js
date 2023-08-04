@@ -53,17 +53,17 @@ gsap.from(".h2s2",{
     }
 })
 
-// gsap.from(".sec2pg1",{
-//     y:50,
-//     opacity:-2,
-//     duration:1.5,
-//     delay:1,
-//     scrollTrigger:{
-//         trigger:".Section2",
-//         start:"10% 80%",
-//         end:"40% 30%",
-//     }
-// })
+gsap.from(".sec2pg1",{
+    y:50,
+    opacity:-2,
+    duration:1.5,
+    delay:1,
+    scrollTrigger:{
+        trigger:".Section2",
+        start:"10% 80%",
+        end:"40% 30%",
+    }
+})
 
 gsap.from(".h2s3",{
     y:200,
