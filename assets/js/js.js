@@ -57,7 +57,7 @@ gsap.from(".sec2pg1",{
     y:50,
     opacity:-2,
     duration:1.5,
-    delay:1,
+    delay:0.5,
     scrollTrigger:{
         trigger:".Section2",
         start:"10% 80%",
