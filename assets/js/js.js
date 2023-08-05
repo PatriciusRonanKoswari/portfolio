@@ -31,7 +31,7 @@ gsap.from(".bdr-section2",{
 })
 
 gsap.from(".kartu",{
-    y:500,
+    y:300,
     opacity:-2,
     duration:1.7,
     scrollTrigger:{
