@@ -776,6 +776,10 @@ text-shadow: unset;
 }
 
 @media (max-width:991.4px){
+    .Section3{
+            background: url(../image/bunga\ kupu\ ungu\ mbl.png)!important;
+            background-size: cover;
+        }
 
     .Section4{
         padding-bottom: 60px;
