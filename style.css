@@ -267,6 +267,16 @@ z-index: -1;
     padding-top: 70%;
 }
 
+.email{
+    color: black;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+}
+
+.email:hover{
+    color: #8a0e19;
+}
+
 
 
 
