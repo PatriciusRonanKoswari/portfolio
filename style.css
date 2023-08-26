@@ -1,0 +1,571 @@
+body{
+    background: black;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url(./font/arsenica/ArsenicaTrial-Medium.ttf);
+}
+
+
+.red-font{
+    color: #8a0e19;
+    border-bottom: #8a0e19 1px solid;
+    cursor: pointer;
+}
+
+.blue-font{
+    color: #087dbf;
+    border-bottom: #087dbf 1px solid;
+    cursor: pointer;
+}
+
+.title-1{
+    font-size: 80px;
+}
+
+.h2style{
+    font-size: 75px;
+    font-family: 'Phudu';
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.h3Style{
+    font-size: 20px;
+    font-family: 'Arsenica';
+}
+
+.p1{
+    font-size: 20px;
+    font-family: 'Josefin Slab';
+    font-weight: 500;
+}
+
+.p2{
+    font-size: 17px;
+    font-family: 'Josefin Slab';
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.p3{
+    font-size: 15px;
+    font-family: 'Josefin Slab';
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.p4{
+    font-size: 13px;
+    font-family: 'Josefin Slab';
+    font-weight: 600;
+    line-height: 20px;  
+    letter-spacing: 1px;
+}
+.p5{
+    font-family: 'Arsenica';
+    font-size: 18px;
+}
+
+.p6{
+    font-family: 'Arsenica';
+    font-size: 30px;
+}
+
+.p7{
+    font-family: 'Arsenica';
+    font-size: 22px;
+}
+
+
+.pic{
+max-width: 450px!important;
+animation: myPic 8s linear;
+z-index: -1;
+}
+
+.numberStyle{
+    font-size: 24px;
+    font-family: 'Josefin Slab';
+    font-weight: 600;
+    color: black;
+}
+
+.SectionAboutMe, .SectionWorkExperience, .SectionSkills, .SectionMyWork, .slogan, .otherProject {
+    padding: 0px 0px 100px 0px;
+}
+
+
+/* Section hero */
+.SectionHero{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
+}
+.titleFirst{
+    font-family: 'Grenze Gotisch';
+    font-size: 140px;
+    transform: translateY(60px);
+    animation: slidetitleFirst 3s linear;
+
+}
+
+.titleSecond{
+    font-family: "Phudu";
+    font-size: 170px;
+    font-weight: 400;
+    transform: translateY(-90px);
+    animation: slidetitleSecond 3s linear;
+}
+
+.pSectionhero{
+    transform: translateY(-70px);
+    font-family: 'Phudu';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+@keyframes slidetitleFirst{
+    0%{
+        transform: translate(-50px,60px);
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0px,60px);
+    }
+}
+
+
+@keyframes slidetitleSecond{
+    0%{
+        transform: translate(50px,-90px);
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0px,-90px);
+    }
+}
+
+@keyframes myPic{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+}
+
+
+/* SectionAboutMe */
+
+
+
+/* SectionWorkExperience */
+
+
+/* SectionSkills */
+.skillTitle{
+    transform: translateY(80px);
+}
+
+
+
+
+/* Section My Work */
+.work-wrap:hover .color-work{
+    transform: scale(1.03);
+}
+
+.work-wrap:hover .grey-work{
+    opacity: 0;
+    transform: scale(1.03);
+    
+}
+.work-wrap, .color-work, .grey-work{
+    transition: all 0.3s ease-in-out;
+}
+
+.grey-work{
+    opacity: 1;
+}
+
+
+
+/* Slogan */
+.phuduSlogan{
+    font-size: 110px;
+    font-family: 'Phudu';
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 85px;
+}
+.arsenalSlogan{
+    font-family: 'Arsenal';
+    font-size: 110px;
+    letter-spacing: 8px;
+}
+
+.motiveImg{
+    max-height: 100px;
+}
+
+
+
+/* other projects */
+.left-arrow{
+    font-size: 50px;
+    color: #8a0e19;
+    transform: translate(-2px,4px) rotate(180deg) ;
+}
+.right-arrow{
+    font-size: 50px;
+    color: #8a0e19;
+    transform: translate(3px,-1px);
+}
+
+.carousel-control-next, .carousel-control-prev{
+    height: 50px;
+    width: 50px!important;
+    background: grey!important;
+    border-radius: 50px;
+    position: absolute!important;
+    top: 50%!important;
+}
+
+.carousel-control-next{
+    right:-60px!important;
+}
+
+.carousel-control-prev{
+    left:-60px!important;
+}
+.wrapper-text{
+    position: absolute;
+    bottom: 0;
+    max-width: 450px;
+}
+
+.details-link{
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+}
+
+.details-link:hover{
+    color: #8a0e19;
+    font-size: 14px;
+}
+
+.padding-email{
+    padding-top: 70%;
+}
+
+
+
+
+/* media query */
+
+@media (min-width:991.5px) and (max-width: 1199.4px){
+    .titleFirst{
+        font-size: 100px;
+        transform: translateY(40px);
+    }
+    .titleSecond{
+        font-size: 140px;
+        transform: translateY(-70px);
+    }
+
+    @keyframes slidetitleFirst{
+        0%{
+            transform: translate(-50px,40px);
+            opacity: 0;
+        }
+        40%{
+            opacity: 1;
+        }
+        100%{
+            transform: translate(0px,40px);
+        }
+    }
+
+    @keyframes slidetitleSecond{
+        0%{
+            transform: translate(50px,-70px);
+            opacity: 0;
+        }
+        40%{
+            opacity: 1;
+        }
+        100%{
+            transform: translate(0px,-70px);
+        }
+    }
+    .padding-email{
+        padding-top: 30%;
+    }
+}
+
+@media (max-width:991.4px){
+    .skillTitle{
+        transform: translateY(0px);
+    }
+
+    .carousel-control-prev {
+        left: 0px!important;
+    }
+
+    .carousel-control-next {
+        right: 0px!important;
+    }
+    .padding-email {
+        padding-top: 0%;
+    }
+}
+
+@media (min-width:767.5px) and (max-width:991.4px){
+    .titleFirst {
+        font-size: 100px;
+    }
+    .titleSecond {
+        font-size: 130px;
+        font-weight: 400;
+        transform: translateY(-70px);
+    }
+
+    @keyframes slidetitleSecond{
+        0%{
+            transform: translate(50px,-70px);
+            opacity: 0;
+        }
+        40%{
+            opacity: 1;
+        }
+        100%{
+            transform: translate(0px,-70px);
+        }
+    }
+
+    .phuduSlogan {
+        font-size: 80px;
+        line-height: 60px;
+    }
+
+    .arsenalSlogan {
+        font-size: 80px;
+        letter-spacing: 5px;
+    }
+
+    .motiveImg{
+        max-height: 70px;
+    }
+}
+
+@media (max-width: 767.4px){
+     .SectionWorkExperience, .SectionSkills, .SectionMyWork, .slogan, .otherProject {
+        padding: 0px 0px 60px 0px;
+    }
+    .SectionAboutMe{
+        padding: 0px 0px 40px 0px;
+    }
+}
+@media (min-width:575.5px) and (max-width:767.4px){
+    .titleFirst {
+        font-size: 80px;
+        transform: translateY(40px);
+    }
+    .titleSecond {
+        font-size: 100px;
+        transform: translateY(-60px);
+    }
+
+    @keyframes slidetitleFirst{
+        0%{
+            transform: translate(-50px,40px);
+            opacity: 0;
+        }
+        40%{
+            opacity: 1;
+        }
+        100%{
+            transform: translate(0px,40px);
+        }
+    }
+
+    @keyframes slidetitleSecond{
+        0%{
+            transform: translate(50px,-60px);
+            opacity: 0;
+        }
+        40%{
+            opacity: 1;
+        }
+        100%{
+            transform: translate(0px,-60px);
+        }
+    }
+    .padding-email{
+        padding-top: 0%;
+    }
+
+    .pSectionhero {
+        font-size: 18px;
+    }
+
+    .h2style {
+        font-size: 50px;
+        letter-spacing: 1px;
+    }
+
+    .pic {
+        max-width: 382px!important;
+    }
+
+    .p1 {
+        font-size: 16px;
+    }
+
+    .p2 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .phuduSlogan {
+        font-size: 70px;
+        letter-spacing: 4px;
+        line-height: 60px;
+    }
+
+    .arsenalSlogan {
+        font-size: 70px;
+        letter-spacing: 4px;
+    }
+    .motiveImg {
+        max-height: 61px;
+    }
+
+    .wrapper-text {
+        max-width: 388px;
+    }
+
+    .p4 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .p6 {
+        font-size: 23px;
+    }
+    .p7 {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width:575.4px){
+    .titleFirst {
+        font-size: 55px;
+        transform: translateY(33px);
+    }
+
+    .titleSecond {
+        font-size: 70px;
+        transform: translateY(-37px);
+    }
+
+    .pic {
+        max-width: 253px!important;
+        animation: myPic 8s linear;
+        z-index: -1;
+    }
+    .pSectionhero {
+        transform: translateY(-40px);
+        font-size: 18px;
+    }
+    @keyframes slidetitleFirst{
+        0%{
+            transform: translate(-50px,33px);
+            opacity: 0;
+        }
+        40%{
+            opacity: 1;
+        }
+        100%{
+            transform: translate(0px,33px);
+        }
+    }
+
+    @keyframes slidetitleSecond{
+        0%{
+            transform: translate(50px,-37px);
+            opacity: 0;
+        }
+        40%{
+            opacity: 1;
+        }
+        100%{
+            transform: translate(0px,-37px);
+        }
+    }
+
+    .h2style {
+        font-size: 33px;
+        letter-spacing: 0px;
+    }
+
+    .p1 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .h3Style {
+        font-size: 22px;
+    }
+    .p2 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .p3 {
+        font-size: 14px;
+    }
+
+    .phuduSlogan {
+        font-size: 50px;
+        letter-spacing: 4px;
+        line-height: 40px;
+    }
+
+    .arsenalSlogan {
+        font-size: 50px;
+        letter-spacing: 4px;
+    }
+    .motiveImg {
+        max-height: 40px;
+    }
+
+    .wrapper-text {
+        bottom: -50px;
+        max-width: 266px;
+    }
+
+    .carousel-inner {
+        overflow: unset!important;
+    }
+
+    .otherProject{
+        padding-bottom: 100px;
+        overflow: hidden;
+    }
+
+    .SectionHero{
+        overflow: hidden;
+    }
+}
+
+

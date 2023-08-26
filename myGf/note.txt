@@ -1,0 +1,12 @@
+color pallete : black white 
+rgba(219,173,232,1) pink
+
+
+font-family = "Dancing Script" / 'Signika Negative'
+
+h1 deks = 100
+h1 mobile = 84
+h2 deks = 42
+h2 mobile = 32
+h3 deks = 32
+h3 mobile = 26

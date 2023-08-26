@@ -1,0 +1,882 @@
+body{
+    background: linear-gradient(313deg, rgba(219,173,232,1) 0%, rgba(36,32,37,1) 100%);
+ 
+}
+
+.airplane1{
+    width: 120px;
+    position: absolute;
+}
+
+.airplane2{
+    width: 80px;
+    position: absolute;
+}
+
+.darker{
+    background: rgba(0,0,0,0.3)!important;
+}
+
+.decoration-none{
+    text-decoration: none;
+}
+
+.image-size-default{
+    width: 100%;
+}
+
+.image-footer{
+    width: 70%;
+}
+.black-font{
+    color: black!important;
+}
+
+.white-font{
+    color: white!important;
+}
+
+.text-shadow-pink {
+    text-shadow: 5px 2px 5px rgba(219,173,232,0.3);
+    transition: all 0.2s ease;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    text-shadow: 5px 2px 5px rgba(0,0,0,0.3);
+    background-color: unset!important;
+    transform: translateX(5px);
+}
+
+.image-size-tabs{
+    width: 100%;
+    border-radius: 6px 20px 20px 20px;
+    box-shadow: 9px 6px 6px rgba(255,255,255,0.1);
+}
+
+.title-2{
+    font-family: 'Signika Negative';
+    font-weight: 700;
+    color: white;
+    font-size: 42px;
+}
+
+.title-3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Signika Negative';
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.title-4 {
+    font-family: 'Poppins'!important;
+    font-weight: 400!important;
+    font-size: 16px!important;
+}
+
+.title-5 {
+    font-family: 'Poppins'!important;
+    font-weight: 400!important;
+    font-size: 20px!important;
+}
+
+.desc-1{
+    font-family: 'Signika Negative';
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+
+.desc-special {
+    font-family: 'Caveat';
+    font-size: 36px;
+    padding-top: 43px;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.desc-special1 {
+    font-family: 'Caveat';
+    font-size: 64px;
+    color: white;
+}
+
+.desc-special2 {
+    font-family: 'Caveat';
+    font-size: 54px;
+    line-height: 60px;
+    color: white;
+}
+
+
+
+/* navbar */
+/* .navbar{
+    padding-top: 0px;
+}
+.bgrow{
+    background:white ;
+    border-radius: 0px 0px 10px 10px;
+}
+.pnav a{
+    font-size: 24px;
+    text-decoration: none;
+} */
+.navbar-collapse {
+   flex-grow: unset!important;
+}
+
+.navBar {
+    padding: 10px 6%;
+    background: transparent;
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.styling-btn{
+    border-bottom: white 2px solid;
+    border-radius: 10px;
+}
+
+.link-style{
+    margin: 0px 10px;
+    padding: 5px 20px!important;
+}
+
+.navBar .dropdown-menu.show {
+    background: rgba(255,255,255,1);
+    position: absolute;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 110%;
+}
+
+.navBar-hover:hover{
+transform: translateX(5px);
+opacity: 50%;
+transition: 0.2s ease-in-out all;
+}
+
+.nav-link.title-4.link-style.dropdown-toggle.white-font.styling-btn.text-shadow-pink.navBar-hover.show.dropdown-toggle::after{
+    transform: rotate(180deg);
+}
+
+/* Section 1 */
+.Section1{
+    overflow: hidden;
+}
+
+.ukuran-hati{
+    position: absolute;
+
+}
+
+#hati1{
+ left: 50%;
+ animation: hati1 6s ease-in-out infinite;
+}
+
+@keyframes hati1{
+    0%{
+        transform:translateY(0px) rotate(20deg);
+        max-width: 50px;
+       
+    }
+
+    50%{
+        transform:translateY(40px) rotate(-20deg);
+        max-width: 70px;
+    }
+
+    100%{
+        transform:translateY(0px) rotate(20deg);
+        max-width: 50px;
+    }
+}
+
+
+#hati2{
+    left: 40%;
+    animation: hati2 8s ease-in-out infinite;
+   }
+
+@keyframes hati2{
+    0%{
+        transform:rotate(-50deg) translateX(50px);
+        max-width: 60px;
+       
+    }
+
+    50%{
+        transform:rotate(50deg) translateX(-50px);
+        max-width: 50px;
+    }
+
+    100%{
+        transform:rotate(-50deg) translateX(50px);
+        max-width: 60px;
+    }
+}
+
+
+
+.Section1 h1{
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    font-family: "Dancing Script";
+    font-weight: 750;
+    font-size: 100px;
+    padding-top: 50px;
+}
+
+
+.BgS1{
+   background-image: url(../image/percobaan-bg.png); 
+   background-repeat: no-repeat;
+   background-size:cover;
+   height: 100vh;
+   margin-top: 92px;
+   background-position: center center;
+   border-bottom: rgba(255,255,255,0.3) dashed 1px;
+   
+}
+
+.ButtonSection1{
+    background: url(../image/pink\ gradient.jpg);
+    background-position: right;
+    background-size: 500px;
+    padding: 8px 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Dancing Script";
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+    animation: bgButton 3s ease-in-out infinite;
+    border-radius: 10px;
+    transition: all 1s ease;
+    border: none;
+}
+
+.ButtonSection1:hover{
+    background-position: left;
+    padding: 15px 60px;
+    word-spacing: 5px;
+    font-size: 30px;
+    box-shadow: 0px 0px 15px white;
+}
+
+@keyframes bgButton {
+    0% {
+        /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(253,178,231,1) 50%, rgba(251,147,215,1) 100%); */
+        text-shadow: 2px 2px 1px black; 
+        transform: translateY(40px) rotate(5deg);
+        
+    }
+    50% {
+        /* background: linear-gradient(90deg, rgba(251,147,215,1) 0%, rgba(238,97,189,1) 50%, rgba(242,74,184,1) 100%); */
+        text-shadow: 2px 2px 10px black;
+        transform: translateY(0px) rotate(-5deg);
+    }
+    100% {
+        /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(253,178,231,1) 50%, rgba(251,147,215,1) 100%); */
+        text-shadow: 2px 2px 1px black;
+        transform: translateY(40px) rotate(5deg);
+    }
+  }
+
+
+  @media (max-width:600.5px){
+    .BgS1 {
+        background-image: url(../image/kupubg-600.png);
+        height: 754px;
+    }
+
+    .Section1 h1 {
+        font-size: 80px;
+        padding-top: 107px;
+    }
+
+  }
+
+  @media (max-width:300px){
+    .BgS1 {
+        background-image: url(../image/percobaan-bg-max575.png);
+        height: 469px;
+    }
+    .Section1 h1 {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+     @keyframes hati1{
+        0%{
+            transform:translateY(0px) rotate(20deg);
+            max-width: 40px;
+           
+        }
+    
+        50%{
+            transform:translateY(40px) rotate(-20deg);
+            max-width: 30px;
+        }
+    
+        100%{
+            transform:translateY(0px) rotate(20deg);
+            max-width: 40px;
+        }
+    }
+
+
+    @keyframes hati2{
+        0%{
+            transform:rotate(-50deg) translateX(30px);
+            max-width: 40px;
+           
+        }
+    
+        50%{
+            transform:rotate(50deg) translateX(-30px);
+            max-width: 30px;
+        }
+    
+        100%{
+            transform:rotate(-50deg) translateX(30px);
+            max-width: 40px;
+        }
+    }
+
+  }
+
+
+/* Section 2 */
+
+.Section2{
+    padding-bottom: 80px;
+    background: url(../image/bunga.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bdr-section2 {
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    margin: 100px 0px;
+    padding: 100px 30px;
+    background: url(../image/sky-bg.png);
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.raining-bg{
+    background: url(../image/raining-bg.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.sunny-bg{
+    background: url(../image/sunny-bg.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.wrapper-sec2{
+    overflow: hidden;
+}
+
+.slider{
+    animation: geser-foto 55s linear infinite;
+    opacity: 40%;
+}
+
+.foto-bersama {
+    max-height: 112px;
+}
+
+@keyframes geser-foto{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-650px); 
+    }
+}
+
+.gambar{
+    max-width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px #ececec;
+}
+
+.bdr{
+    border: none;
+    animation: floating 4s ease-in-out infinite;
+}
+
+@keyframes floating{
+    0% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(0, 30px);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+}
+
+.sec2pg1 {
+    max-width: 1000px;
+    font-family: 'caveat';
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: -23px;
+}
+
+.sec2pg2{
+    font-family: 'caveat';
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    
+}
+
+.sec2pg3{
+    font-family: 'caveat';
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    opacity: 90%;
+    padding-top: 32px;
+    
+}
+
+.kartu{
+    position: relative;
+    /* height: 100%;
+    width: 100%; */
+    height: 500px;
+
+}
+
+.kartu-depan,.kartu-belakang{
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 1s ease-in-out;
+    padding: 60px 60px 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px #ececec;
+}
+
+
+.kartu-belakang{
+    transform: RotateX(-180deg);
+
+}
+
+.kartu:hover .kartu-depan{
+    transform: rotateX(180deg);
+}
+
+.kartu:hover .kartu-belakang{
+    transform: rotateX(0deg);
+}
+
+
+
+
+
+/* Section 3 */
+.jarak-64{
+    margin-bottom: 64px;
+}
+.Section3{
+padding-bottom: 100px;
+background: url(../image/bunga\ kupu\ ungu.png);
+background-size: cover;
+}
+
+
+.bdr-section3 {
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    padding: 38px 0px;
+    overflow: hidden;
+}
+
+
+.bunga{
+    max-width: 60px;
+    
+}
+
+#bunga1{
+    animation: bunga1 6s ease-in-out infinite;
+}
+
+@keyframes bunga1{
+    0%{
+        transform:translateX(90px) rotate(-20deg);
+    }
+    50%{
+        transform: translateX(0px)rotate(10deg);
+    }
+    100%{
+        transform: translateX(90px)rotate(-20deg);
+    }
+}
+
+#bunga2{
+    animation: bunga2 6s ease-in-out infinite;
+}
+
+@keyframes bunga2{
+    0%{
+        transform:translateX(-90px) rotate(20deg);
+    }
+    50%{
+        transform: translateX(0px)rotate(-10deg);
+    }
+    100%{
+        transform: translateX(-90px)rotate(20deg);
+    }
+}
+
+
+@media (max-width:600px){
+    #bunga1{
+        animation: bunga1 6s ease-in-out infinite;
+    }
+    
+    @keyframes bunga1{
+        0%{
+            transform:translateX(-30px) rotate(-10deg);
+        }
+        50%{
+            transform: translateX(0px)rotate(0deg);
+        }
+        100%{
+            transform: translateX(-30px)rotate(-10deg);
+        }
+    }
+    
+    #bunga2{
+        animation: bunga2 5.5s ease-in-out infinite;
+    }
+    
+    @keyframes bunga2{
+        0%{
+            transform:translateX(-50px) rotate(10deg);
+        }
+        50%{
+            transform: translateX(-20px)rotate(0deg);
+        }
+        100%{
+            transform: translateX(-50px)rotate(10deg);
+        }
+}
+
+}
+
+
+#myTab {
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+}
+
+
+.btn-tabs{
+    width: 150px;
+    margin: 0px 20px;
+    height: 40px;
+}
+
+.nav-link.btn-tabs.active{
+    background: none;
+    border-radius: 6px 20px 20px 20px;
+    color: black;
+    letter-spacing: 2px;
+    background: url(../image/tabs_bg.png);
+    font-family: 'caveat';
+    font-weight: 800;
+    background-position: center center;
+    background-size: cover;
+}
+
+.nav-link.btn-tabs{
+    background: none;
+    border: none;
+    border-radius: 6px 20px 20px 20px;
+    font-family: "Signika Negative";
+    font-size: 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+.nav-link.btn-tabs:hover{
+border: none ;
+letter-spacing: 2px;
+text-shadow: 5px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.nav-link.btn-tabs.active:hover{
+text-shadow: unset;
+    }
+
+.wrapper-tabs {
+    border: white 2px solid;
+    border-radius: 6px 20px 20px 20px;
+    padding: 45px 75px;
+    color: white;
+}
+
+
+/* section 4 */
+.Section4{
+    padding-bottom: 100px;
+    background: url(../image/bg-cloud.png);
+    background-size: cover;
+}
+
+
+/* footer */
+
+.line-left{
+    border-left: 1px rgba(255, 255, 255, 0.3) solid;
+}
+
+.opacity-50persen{
+    opacity: 50%;
+    transition: 0.2s ease;
+}
+
+.opacity-50persen:hover{
+    opacity: 80%;
+    transform: translateY(-5px);
+}
+.footer-bg{
+    background: linear-gradient(180deg, rgba(86,78,85,1) 0%, rgba(89,32,87,1) 100%);
+    position: relative;
+    border-top: 2px rgba(255, 255, 255, 0.5) solid;
+}
+
+#timer {
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.under-footer{
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+}
+
+.footer-big{
+    position: absolute;
+    transform: translateX(-200%);
+    top: 20%;
+    left: 20%;
+}
+
+.sosmed-footer{
+    max-width: 20px;
+}
+
+
+
+@keyframes text-footer{
+   0%{
+        transform: translateX(-100%);
+    }
+   10%{
+        transform: translateX(0%);
+    }
+    90%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateY(600%);
+    }
+}
+
+
+
+/* .container-footer-bg{
+    background: url(../image/buble.png);
+    background-position: top center;
+    background-size: cover;
+} */
+
+
+
+@keyframes buble-up{
+    from{
+        background-position: top center;
+    }
+    to{
+        background-position: bottom center;
+    }
+}
+
+
+@keyframes slideout{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-500%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+
+
+@media (min-width:1399.5px){
+}
+
+@media (min-width:1199.5px) and (max-width:1399.4px){
+
+}
+
+@media (min-width:991.4px) and (max-width:1199.4px){
+
+}
+@media (max-width:767.4px){
+    .hide-small-mobile{
+        display: none;
+    }
+    .line-left {
+        border-left: unset;
+    }
+}
+
+@media (max-width:575.4px){
+    .wrapper-tabs {
+        padding: 45px 24px;
+    }
+    .Section3,.Section2{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width:991.5px){
+    .hide-in-dekstop{
+        display: none;
+    }
+}
+
+@media (max-width:991.4px){
+    .Section2{
+        padding-bottom: 110px;
+
+    }
+    .Section3{
+            background: url(../image/bunga\ kupu\ ungu\ mobile.png)!important;
+            background-size: cover;
+        }
+
+    .Section4{
+        padding-bottom: 60px;
+    }
+
+    .desc-special1 {
+        font-family: 'Caveat';
+        font-size: 34px;
+        color: white;
+    }
+    
+    .desc-special2 {
+        font-family: 'Caveat';
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom:30px;
+        color: white;
+    }
+
+    .link-style {
+        margin: 5px 0px 0px 0px;
+        padding: 5px 0px!important;
+    }
+
+    .styling-btn {
+        border-bottom: unset;
+        border-radius: unset;
+        border-top: rgba(255, 255, 255, 0.2)  solid;
+    }
+    .under-footer {
+        background:unset!important;
+        border-top: 1px rgba(255, 255, 255, 0.2) solid;
+    }
+    .hide-in-mobile{
+        display: none;
+    }
+    #tempat-bunga1,#tempat-bunga2{
+        display: none;
+    }
+    .Section1{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .ButtonSection1 {
+        padding: 10px 50px;
+        color: white;
+        font-size: 24px;
+    }
+    .ButtonSection1:hover{
+        padding: 12px 43px;
+        word-spacing: 3px;
+        font-size: 22px;
+        box-shadow: 0px 0px 8px white;
+    }
+
+
+    .Section2 h2{
+        padding-top: 0px!important;
+     }
+
+     .title-2{
+        font-size: 32px;
+     }
+     .title-3{
+        font-size: 26px;
+     }
+       
+    #hati2{
+        left: 20%;
+    }
+
+
+    .margin-footer {
+        margin-top: 30%;
+    }
+    #myTab {
+        justify-content: unset!important;
+        overflow-x: scroll;
+
+    }
+}
+
+
+ /* custom scrollbar style */
+ ::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(219,173,232,1);
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 15px;
+}
+
+
