@@ -73,11 +73,14 @@ body{
     font-size: 30px;
 }
 
+
 .p7{
     font-family: 'Arsenica';
     font-size: 22px;
 }
-
+.p8{
+    font-size: 20px;
+}
 
 .pic{
 max-width: 450px!important;
@@ -264,7 +267,7 @@ z-index: -1;
 }
 
 .padding-email{
-    padding-top: 70%;
+    padding-top: 40%;
 }
 
 .email{
@@ -475,6 +478,9 @@ z-index: -1;
     .p7 {
         font-size: 17px;
     }
+    .p8{
+        font-size: 17px;
+    }
 }
 
 
@@ -575,6 +581,13 @@ z-index: -1;
 
     .SectionHero{
         overflow: hidden;
+    }
+}
+
+
+@media (min-width:1399.5px){
+    .padding-email{
+        padding-top: 70%;
     }
 }
 
