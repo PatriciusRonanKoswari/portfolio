@@ -1,0 +1,535 @@
+
+body{
+   
+}
+
+.title1{
+    font-size: 42px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.title2{
+    font-size:23px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.title3 {
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.title4{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.title5 {
+    font-size: 38px;
+    font-family: 'Oswald';
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.title-content{
+    margin-bottom: 80px;
+}
+
+.paragraph1{
+    font-size: 14px;
+    font-family: 'Roboto';
+    line-height: 24px;
+}
+
+.paragraph2{
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: 24px;
+    font-weight: 600;
+}
+
+
+.paragraph3{
+    font-size: 12px;
+    font-family: 'Roboto';
+    line-height: 18px;
+}
+
+.paragraph4{
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.buttonStyle {
+    background: #ffbf2a;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: black;
+    border-radius: 8px;
+    padding: 10px 25px;
+    letter-spacing: 2px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out all;
+}
+
+.buttonStyle1 {
+    background: black;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: white;
+    border-radius: 70px;
+    padding: 15px 48px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out all;
+}
+
+
+.buttonStyle:hover {
+    background: black;
+    color: #ffbf2a;
+}
+
+.navbar{
+    background: rgba(231, 231, 231, 1);
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.white-font{
+    color: white;
+}
+
+.yellow-font{
+    color: rgba(255, 191, 42, 1);
+}
+
+.gold-font{
+    color:#dda528;
+}
+
+
+.img-default{
+    max-width: 100%;
+}
+.logo-nav{
+    width: 50px;
+}
+
+
+
+.navfont-style{
+    color: black;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    padding: 25px;
+    transition: 0.2s all ease-in-out;
+    
+}
+
+.navfont-style:hover{
+    opacity: 80%;
+}
+
+
+.navfont-style1{
+    color: black;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s all ease-in-out;
+}
+
+.navfont-style1:hover{
+    opacity: 80%;
+}
+
+.vision{
+    position: absolute;
+    color: white;
+    font-family: 'Roboto';
+    max-width: 100px;
+}
+
+.dropdown-menu.show {
+    width: 280px;
+    background: rgba(231, 231, 231, 1);
+    border: none;
+}
+
+.nav-link.navfont-style.dropdown-toggle::after{
+    transform: rotate(0deg);
+    transition: all 0.1s linear;
+}
+
+.nav-link.navfont-style.show.dropdown-toggle::after{
+    transform: rotate(180deg);
+}
+
+
+
+/* Section1 */
+.Section1{
+    background: url(./img/s1bg-2.png);
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+    z-index: -9;
+}
+
+.h1{
+    border-left:1px #ffbf2a solid;
+    
+}
+
+.backgrounds1{
+    margin-top: 40%;
+    /* background: rgba(0, 0, 0, 0.6); */
+}
+
+/* Section2 */
+.Section2{
+    background: linear-gradient(to right,rgba(255, 191, 42, 0.3), rgba(255, 255, 255, 1), rgba(255, 191, 42, 0.3) );
+    /* background: linear-gradient(231deg, rgba(231,231,231,1) 53%, rgba(96,73,23,1) 80%); */
+    padding: 100px 0px;
+}
+
+.wrapper-card{
+    padding: 20px 30px 60px 30px;
+    transition: all 0.2s ease-in-out;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.wrapper-card:hover{
+   box-shadow: 0px 0px 10px rgba(10, 103, 170, 0.2); 
+    /* background: rgba(255,255,255,0.12); */
+    scale: 1.07;
+}
+
+.pesan-sekarang{
+    text-decoration: none;
+    color: #ffbf2a;
+    border-bottom: #ffbf2a 2px solid;
+    padding-bottom: 7px;
+    transition: all 0.2s ease-in-out;
+}
+
+.pesan-sekarang:hover{
+    opacity: 50%;
+    color: #ffbf2a;
+    letter-spacing: 1px;
+}
+
+
+/* Section3 */
+.Section3{
+    padding: 100px 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section3-bg{
+    width: 100%;
+    position: absolute;
+    top: -400px;
+    z-index: -1;
+}
+
+
+
+
+/* Section4 */
+.Section4{
+    /* height: 100vh; */
+    padding: 75px 0px;
+    overflow: hidden;
+    background: linear-gradient(to right,rgba(255, 191, 42, 0.3), rgba(255, 255, 255, 1), rgba(255, 191, 42, 0.3) );
+    /* background: linear-gradient(to bottom, rgba(231,231,231,1) 53%, rgba(96,73,23,1) 80%); */
+}
+
+.contact-style{
+    transition: all 0.2s ease-in-out;
+}
+.contact-style:hover{
+    color:rgba(255, 191, 42, 1);
+}
+
+.accordion-item{
+    background: none;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.accordion-button:not(.collapsed){
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.accordion-button{
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding: 20px 30px;
+    
+
+}
+
+.accordion-button span{
+margin-left: auto;
+transition: 0.2s all linear;
+transform: rotate(180deg);
+
+    
+}
+.accordion-button.collapsed span{
+transform: rotate(0deg);
+        
+    }
+
+
+.accordion-item:not(:first-of-type) {
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-radius:5px;
+}
+.accordion-button:focus {
+    box-shadow: 0px 0px 5px rgba(255, 191, 42, 0.3)
+    ;
+}
+
+
+.accordion-item:first-of-type {
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: unset!important;
+}
+
+
+.accordion-body {
+    padding: 22px 31px!important;
+}
+
+.yellow-border{
+    border-bottom: rgba(255, 191, 42, 0.6) 1px solid;
+    width: fit-content;
+}
+
+.accordion-button::after {
+display: none;
+}
+
+.wrapper-map{
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+.contact-absolute{
+    background: rgba(0, 0, 0, 1);
+    opacity: 80%;
+    position: absolute;
+    max-width: 100%;
+    padding: 40px 30px;
+    bottom: 0;
+    
+}
+
+
+.footer{
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+    padding: 30px 0px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.1));
+
+}
+
+
+
+
+/* Section Kebersihan */
+.wrapperSection{
+    position: relative;
+    padding: 100px 0px;
+}
+
+.gradient{
+    position: absolute;
+    height: 100%!important;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(255, 191, 42, 0.3), rgba(255, 255, 255, 1), rgba(255, 191, 42, 0.3) );
+    z-index: -2;
+    top: 0;
+    left: 0;
+}
+
+.nyapu1{
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.yellow-square{
+    position: absolute;
+    height: 100%!important;
+    width: 400px;
+    background-color: rgba(255, 191, 42, 0.8);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.paragrafSpecial{
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    font-weight: 700;
+}
+@media (min-width:991.5px){
+    .hidden-in-dekstop{
+        display: none;
+    }
+}
+
+@media (max-width:991.4px){
+    .hidden-in-mobile{
+        display: none;
+    }
+
+    .yellow-square{
+        display: none;
+    }
+    .backgrounds1{
+        margin-top: 300px;
+        /* background: rgba(0, 0, 0, 0.6); */
+    }
+
+    .navfont-style {
+        padding: 15px 0px;
+    }
+    .section3-bg {
+        height: 100%;
+        top: 0px;
+        z-index: -1;
+    }
+
+
+}
+
+@media(max-width:767.4px){
+    .wrapperSection{
+        position: relative;
+        padding: 100px 10px;
+    }
+    .navbar {
+        width: 100%;
+        top: 0;
+        position: fixed;
+    }
+    .padding-mobile-nav{
+        padding: 5px 20px;
+    }
+    .section3-bg {
+        height: 100%;
+        top: 250px;
+        z-index: -1;
+    }
+}
+
+@media(max-width:400px){
+    .title1 {
+        font-size: 29px;
+        line-height: 39px;
+    }
+
+    .title2 {
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+    .buttonStyle {
+        font-size: 13px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .title3 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 45px;
+    }
+
+    .title5 {
+        font-size: 30px;
+        font-family: 'Libre Baskerville';
+        font-weight: 700;
+        line-height: 32px;
+    }
+
+    .title-content {
+        margin-bottom: 60px;
+    }
+
+    .Section2{
+        padding: 100px 10px;
+        
+    }
+
+    .backgrounds1{
+        margin-top: 300px;
+        /* background: rgba(0, 0, 0, 0.6); */
+    }
+
+    .accordion-button:not(.collapsed) {
+        font-size: 16px;
+    }
+    .accordion-button{
+        font-size: 16px;
+    }
+
+    .paragraph1{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .paragraph2{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+}
+
+
+
+
+/* Galery */
+.galery-pic{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+

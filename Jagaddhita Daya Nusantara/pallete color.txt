@@ -1,0 +1,7 @@
+pallete color
+#0a67aa
+#e7e7e7
+#ffbf2a
+
+font color
+#dda528 kuning keemasan
