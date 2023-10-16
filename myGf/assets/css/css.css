@@ -234,7 +234,7 @@ transition: 0.2s ease-in-out all;
 
 
 .BgS1{
-   background-image: url(../image/percobaan-bg.png); 
+   background-image: url(../image/percobaan-bg.webp); 
    background-repeat: no-repeat;
    background-size:cover;
    height: 100vh;
@@ -290,7 +290,7 @@ transition: 0.2s ease-in-out all;
 
   @media (max-width:600.5px){
     .BgS1 {
-        background-image: url(../image/kupubg-600.png);
+        background-image: url(../image/kupubg-600.webp);
         height: 754px;
     }
 
@@ -303,7 +303,7 @@ transition: 0.2s ease-in-out all;
 
   @media (max-width:300px){
     .BgS1 {
-        background-image: url(../image/percobaan-bg-max575.png);
+        background-image: url(../image/percobaan-bg-max575.webp);
         height: 469px;
     }
     .Section1 h1 {
@@ -355,7 +355,7 @@ transition: 0.2s ease-in-out all;
 
 .Section2{
     padding-bottom: 80px;
-    background: url(../image/bunga.png);
+    background: url(../image/bunga.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -366,20 +366,20 @@ transition: 0.2s ease-in-out all;
     border-radius: 30px;
     margin: 100px 0px;
     padding: 100px 30px;
-    background: url(../image/sky-bg.png);
+    background: url(../image/sky-bg.webp);
     background-position: center center;
     background-size: cover;
     overflow: hidden;
 }
 
 .raining-bg{
-    background: url(../image/raining-bg.png);
+    background: url(../image/raining-bg.webp);
     background-position: center center;
     background-size: cover;
 }
 
 .sunny-bg{
-    background: url(../image/sunny-bg.png);
+    background: url(../image/sunny-bg.webp);
     background-position: center center;
     background-size: cover;
 }
@@ -639,7 +639,7 @@ text-shadow: unset;
 /* section 4 */
 .Section4{
     padding-bottom: 100px;
-    background: url(../image/bg-cloud.png);
+    background: url(../image/bg-cloud.webp);
     background-size: cover;
 }
 
