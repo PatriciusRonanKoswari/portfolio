@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Lagu Rekomendasi</title>
+</head>
+<body>
+    <h1>Daftar Lagu Rekomendasi</h1>
+    <ul>
+        {% for index, track in playlist_top5.iterrows() %}
+        <li>
+            <p>{{ track['track_name'] }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
