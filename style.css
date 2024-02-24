@@ -95,7 +95,7 @@ z-index: -1;
     color: black;
 }
 
-.SectionAboutMe, .SectionWorkExperience, .SectionSkills, .SectionMyWork, .slogan, .otherProject {
+.SectionAboutMe, .SectionWorkExperience, .SectionSkills, .slogan{
     padding: 0px 0px 100px 0px;
 }
 
@@ -172,14 +172,67 @@ z-index: -1;
 
 
 /* SectionWorkExperience */
+.company-logo-size, .company-logo-size1{
+    max-width:195px;
+    transition: all 0.2s ease-in-out;    
+    cursor: pointer;
+}
 
+.company-logo-size{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.wrapper-company-logo:hover .company-logo-size{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 2;
+}
+.wrapper-company-logo:hover .company-logo-size1{
+    opacity: 0;
+}
+
+
+
+.carousel-porto{
+    padding: 0px 60px;
+}
+#hashmicro-project .owl-next{
+    position: absolute;
+    left: 55px;
+    bottom:125px;
+    font-size: 60px;
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    background: rgb(158, 154, 154);
+    color: white;
+    opacity: 20%;
+    transition: all 0.25s ease-in-out;
+}
+
+#hashmicro-project:hover .owl-next{
+    opacity: 100%;
+}
+
+#hashmicro-project .owl-next span{
+    position: absolute;
+    top: -29px;
+    left: 14px;
+}
+
+#hashmicro-project .owl-prev{
+    display: none;
+}
 
 /* SectionSkills */
 .skillTitle{
     transform: translateY(80px);
 }
-
-
 
 
 /* Section My Work */
@@ -194,13 +247,23 @@ z-index: -1;
 }
 .work-wrap, .color-work, .grey-work{
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .grey-work{
     opacity: 1;
 }
 
+.details-link{
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+    display: inline-block;
+}
 
+.details-link:hover{
+    color: #8a0e19;
+    transform: translateY(-3px);
+}
 
 /* Slogan */
 .phuduSlogan{
@@ -222,49 +285,7 @@ z-index: -1;
 
 
 
-/* other projects */
-.left-arrow{
-    font-size: 50px;
-    color: #8a0e19;
-    transform: translate(-2px,4px) rotate(180deg) ;
-}
-.right-arrow{
-    font-size: 50px;
-    color: #8a0e19;
-    transform: translate(3px,-1px);
-}
 
-.carousel-control-next, .carousel-control-prev{
-    height: 50px;
-    width: 50px!important;
-    background: grey!important;
-    border-radius: 50px;
-    position: absolute!important;
-    top: 50%!important;
-}
-
-.carousel-control-next{
-    right:-60px!important;
-}
-
-.carousel-control-prev{
-    left:-60px!important;
-}
-.wrapper-text{
-    position: absolute;
-    bottom: 0;
-    max-width: 450px;
-}
-
-.details-link{
-    text-decoration: none;
-    transition: 0.2s all ease-in-out;
-}
-
-.details-link:hover{
-    color: #8a0e19;
-    font-size: 14px;
-}
 
 .padding-email{
     padding-top: 40%;
@@ -381,7 +402,7 @@ z-index: -1;
 }
 
 @media (max-width: 767.4px){
-     .SectionWorkExperience, .SectionSkills, .SectionMyWork, .slogan, .otherProject {
+     .SectionWorkExperience, .SectionSkills, .slogan, .otherProject {
         padding: 0px 0px 60px 0px;
     }
     .SectionAboutMe{
@@ -461,10 +482,6 @@ z-index: -1;
     }
     .motiveImg {
         max-height: 61px;
-    }
-
-    .wrapper-text {
-        max-width: 388px;
     }
 
     .p4 {
@@ -565,10 +582,6 @@ z-index: -1;
         max-height: 40px;
     }
 
-    .wrapper-text {
-        bottom: -50px;
-        max-width: 266px;
-    }
 
     .carousel-inner {
         overflow: unset!important;
@@ -582,6 +595,10 @@ z-index: -1;
     .SectionHero{
         overflow: hidden;
     }
+
+    .carousel-porto {
+        padding: 0px 20px;
+      }
 }
 
 
