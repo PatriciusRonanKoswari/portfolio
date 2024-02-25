@@ -180,14 +180,14 @@ z-index: -1;
 
 .company-logo-size{
     position: absolute;
-    top: 0;
+    top: 2px;
     left: 0;
     opacity: 0;
 }
 
 .wrapper-company-logo:hover .company-logo-size{
     position: absolute;
-    top: 0;
+    top: 2px;
     left: 0;
     opacity: 1;
     z-index: 2;
@@ -213,6 +213,11 @@ z-index: -1;
     color: white;
     opacity: 20%;
     transition: all 0.25s ease-in-out;
+}
+
+#hashmicro-project.owl-theme .owl-dots .owl-dot span{
+    width: 15px;
+    height: 3px;
 }
 
 #hashmicro-project:hover .owl-next{
@@ -599,6 +604,18 @@ z-index: -1;
     .carousel-porto {
         padding: 0px 20px;
       }
+      .company-logo-size, .company-logo-size1 {
+        max-width: 165px;
+      }
+
+      .company-logo-size{
+        top: 4px;
+    }
+    
+    .wrapper-company-logo:hover .company-logo-size{
+        top: 4px;
+    }
+    
 }
 
 
