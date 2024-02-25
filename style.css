@@ -609,11 +609,11 @@ z-index: -1;
       }
 
       .company-logo-size{
-        top: 4px;
+        top: 3px;
     }
     
     .wrapper-company-logo:hover .company-logo-size{
-        top: 4px;
+        top: 3px;
     }
     
 }
