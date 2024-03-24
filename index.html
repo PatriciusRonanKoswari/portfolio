@@ -75,7 +75,7 @@
 
 
 
-<div class="SectionWorkExperience pt-lg-5">
+<div class="SectionWorkExperience pt-lg-5" id="workExperience">
     <div class="container">
         <div class="row mb-lg-5 mb-sm-4 mb-3">
             <div class="col-lg-5">
@@ -326,26 +326,51 @@
 </div>
 
 
+<!-- Modal Certificate-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 900px;">
+        <div class="modal-content" style="background: none; border: none;">
+        <div class="modal-body mx-auto">
+            <img src="./img/Patricius_Ronan_Koswari_HashMicro_x_Binus_Internship_2023_-_Front_End_Developer.webp" alt="" style="width:100%;max-width:900px;">
+        </div>
+
+        </div>
+    </div>
+</div>
+
 <script src="./javascript/jquery-3.6.4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+
 <script>
-// $('#hashmicro-project').owlCarousel({
-//     loop:true,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:1
-//         },
-//         600:{
-//             items:3
-//         },
-//         1000:{
-//             items:5
-//         }
-//     }
-// })
+
+// script panggi modal by class
+// $(document).ready(function(){
+//         $(".cta-popup").click(function(){
+//             $("#myModal").modal("show");
+//         });
+//     });
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        // Mendapatkan posisi bagian SectionWorkExperience
+        var sectionPosition = $('#workExperience').offset().top;
+
+        var scrollPosition = $(window).scrollTop();
+
+  
+        if(scrollPosition > sectionPosition){
+            setTimeout(function(){
+                // Menampilkan modal
+                $("#myModal").modal("show");
+            }, 3000); 
+            
+            $(window).off('scroll');
+        }
+    });
+});
+
+
     $(document).ready(function() {
       var one = $('#hashmicro-project');
     //   var two = $('#carousel-two');
@@ -373,7 +398,10 @@
         }
       })
     })
-  
+
+
+
+   
 
   
 </script>
