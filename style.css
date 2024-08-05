@@ -95,7 +95,7 @@ z-index: -1;
     color: black;
 }
 
-.SectionAboutMe, .SectionWorkExperience, .SectionSkills, .slogan{
+.SectionAboutMe,.CurrentPosition,.SectionWorkExperience, .SectionSkills, .slogan{
     padding: 0px 0px 100px 0px;
 }
 
@@ -169,6 +169,47 @@ z-index: -1;
 
 /* SectionAboutMe */
 
+
+
+/* SectionCurrentPosition */
+.blimp-logo-size, .blimp-logo-size1{
+    max-width:120px;
+    transition: all 0.5s ease-in-out;    
+    cursor: pointer;
+}
+
+.blimp-logo-size{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.wrapper-company-logo:hover .blimp-logo-size{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 2;
+}
+.wrapper-company-logo:hover .blimp-logo-size1{
+    opacity: 0;
+}
+
+.blimp-font{
+    color: #8a0e19;
+    border-bottom: #8a0e19 1px solid;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+    display: inline-block;
+}
+
+.blimp-font:hover{
+    color: #8a0e19;
+    border-bottom: #8a0e19 1px solid;
+    transform: translateY(-3px);
+}
 
 
 /* SectionWorkExperience */
@@ -407,7 +448,7 @@ z-index: -1;
 }
 
 @media (max-width: 767.4px){
-     .SectionWorkExperience, .SectionSkills, .slogan, .otherProject {
+     .CurrentPosition, .SectionWorkExperience, .SectionSkills, .slogan, .otherProject {
         padding: 0px 0px 60px 0px;
     }
     .SectionAboutMe{
