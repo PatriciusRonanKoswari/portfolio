@@ -215,9 +215,15 @@ z-index: -1;
 /* SectionWorkExperience */
 .company-logo-size, .company-logo-size1{
     max-width:195px;
-    transition: all 0.2s ease-in-out;    
+    transition: all 0.25s ease-in-out;    
     cursor: pointer;
 }
+
+.blimp-logo-size, .blimp-logo-size1 {
+    max-width: 95px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+  }
 
 .company-logo-size{
     position: absolute;
@@ -237,11 +243,25 @@ z-index: -1;
     opacity: 0;
 }
 
-
-
-.carousel-porto{
-    padding: 0px 60px;
+.hashmicro-certificate, .blimp-certificate{
+    color: #8a0e19;
+    border-bottom:#8a0e19 1px solid;
+    cursor: pointer;
+    transition: all 0.25 ease-in-out;
 }
+
+.hashmicro-certificate:hover, .blimp-certificate:hover{
+   opacity: 70%;
+}
+
+.carousel-porto-hashmicro{
+    padding: 0px 0px 0px 60px;
+}
+
+.carousel-porto-blimp{
+    padding: 0px 60px 0px 0px;
+}
+
 #hashmicro-project .owl-next{
     position: absolute;
     left: 55px;
@@ -272,6 +292,39 @@ z-index: -1;
 }
 
 #hashmicro-project .owl-prev{
+    display: none;
+}
+
+#blimp-project .owl-next{
+    position: absolute;
+    right: 55px;
+    bottom:125px;
+    font-size: 60px;
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    background: rgb(158, 154, 154);
+    color: white;
+    opacity: 20%;
+    transition: all 0.25s ease-in-out;
+}
+
+#blimp-project.owl-theme .owl-dots .owl-dot span{
+    width: 15px;
+    height: 3px;
+}
+
+#blimp-project:hover .owl-next{
+    opacity: 100%;
+}
+
+#blimp-project .owl-next span{
+    position: absolute;
+    top: -29px;
+    right: 14px;
+}
+
+#blimp-project .owl-prev{
     display: none;
 }
 
@@ -642,9 +695,13 @@ z-index: -1;
         overflow: hidden;
     }
 
-    .carousel-porto {
-        padding: 0px 20px;
+    .carousel-porto-hashmicro {
+        padding: 0px 0px 0px 20px;
       }
+
+    .carousel-porto-blimp {
+    padding: 0px 20px 0px 0px;
+    }
       .company-logo-size, .company-logo-size1 {
         max-width: 165px;
       }
