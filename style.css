@@ -243,18 +243,18 @@ z-index: -1;
     opacity: 0;
 }
 
-.hashmicro-certificate, .blimp-certificate{
+.hashmicro-certificate, .blimp-certificate, .jagat-certificate{
     color: #8a0e19;
     border-bottom:#8a0e19 1px solid;
     cursor: pointer;
     transition: all 0.25 ease-in-out;
 }
 
-.hashmicro-certificate:hover, .blimp-certificate:hover{
+.hashmicro-certificate:hover, .blimp-certificate:hover, .jagat-certificate:hover{
    opacity: 70%;
 }
 
-.carousel-porto-hashmicro{
+.carousel-porto-hashmicro, .carousel-porto-jagat{
     padding: 0px 0px 0px 60px;
 }
 
@@ -262,7 +262,7 @@ z-index: -1;
     padding: 0px 60px 0px 0px;
 }
 
-#hashmicro-project .owl-next{
+#hashmicro-project .owl-next, #jagat-project .owl-next{
     position: absolute;
     left: 55px;
     bottom:125px;
@@ -276,22 +276,22 @@ z-index: -1;
     transition: all 0.25s ease-in-out;
 }
 
-#hashmicro-project.owl-theme .owl-dots .owl-dot span{
+#hashmicro-project.owl-theme .owl-dots .owl-dot span, #jagat-project.owl-theme .owl-dots .owl-dot span{
     width: 15px;
     height: 3px;
 }
 
-#hashmicro-project:hover .owl-next{
+#hashmicro-project:hover .owl-next, #jagat-project:hover .owl-next{
     opacity: 100%;
 }
 
-#hashmicro-project .owl-next span{
+#hashmicro-project .owl-next span, #jagat-project .owl-next span{
     position: absolute;
     top: -29px;
     left: 14px;
 }
 
-#hashmicro-project .owl-prev{
+#hashmicro-project .owl-prev, #jagat-project .owl-prev{
     display: none;
 }
 
@@ -695,7 +695,7 @@ z-index: -1;
         overflow: hidden;
     }
 
-    .carousel-porto-hashmicro {
+    .carousel-porto-hashmicro, .carousel-porto-jagat {
         padding: 0px 0px 0px 20px;
       }
 

@@ -129,6 +129,63 @@
                 <p class="numberStyle text-lg-end d-lg-block d-none">04</p>
             </div>
         </div>
+        <div class="row d-flex pt-lg-5 mb-lg-5 mb-sm-4 mb-3">
+            <div class="col-lg-6">
+                <div class="position-relative mb-4 d-inline-block wrapper-company-logo">
+                    <img src="./img/Jagat-Saksana-Makmur-Logo-Color.webp" alt="" class="blimp-logo-size">
+                    <img src="./img/Jagat-Saksana-Makmur-Logo-Grey.png" alt="" class="blimp-logo-size1">
+                </div>
+                <p class="p2 mb-0">DIGITAL MARKETING</p>
+                <p class="p3 mb-4">(OCT 2024 - JULY 2025) <span class="jagat-certificate">(Work Certificate)</span></p>
+                <p class="p1 mb-4">PT Jagat Saksana Makmur is a construction material distributor based in Tangerang, Indonesia. The company has supported over 100 construction projects nationwide by supplying high-quality materials, tools, and safety equipment.</p>
+                    <p class="p1 mb-2">Job Description :</p>
+                    <ul class="p2 mb-4">
+                        <li>Digital Strategy & Website Creation.</li>
+                        <li>Business Development & Client Engagement.</li>
+                        <li>Sales Operations Support.</li>
+                        <li>Inventory & Market Monitoring</li>
+                        <li>System & Communication Improvement</li>
+                        <li>Instagram Content Creation & Social Media Growth</li>
+                    </ul>
+                    <p class="p1 d-md-block d-none">Projects I worked on while working at Jagat Saksana Makmur >>></p>
+            </div>
+            <div class="col-lg-6 my-lg-auto">
+                <div>
+                    <div class="owl-carousel owl-theme" id="jagat-project">
+                        <div class="carousel-porto-jagat">
+                            <div class="work-wrap" style="position: relative;">
+                                <img src="./img/jagat-web.png" alt="" style="max-width: 100%;" class="color-work">
+                                <img src="./img/jagat-grey.png" alt="" style="max-width: 100%;position: absolute; top:0;left:0;" class="grey-work">  
+                                <div class="wrapper-text mb-2 mb-lg-0">
+                                    <h3 class="h3Style my-md-3 my-2 text-start">Company Website</h3>
+                                    <p class="p4 mb-0 text-start">THE FOLLOWING WEBSITE WAS CREATED TO INTRODUCE THE COMPANY’S PRODUCT OFFERINGS AND TO DESIGNED TO SHOWCASE PRODUCTS AND GENERATE HIGH-QUALITY SALES LEADS. I'VE INCLUDED WEBSITE <a href="https://www.youtube.com/watch?v=S7n_1uXYwQ4" class="red-font details-link" target="_blank">DETAILS</a> IF YOU'RE INTERESTED.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-porto-jagat">
+                            <div class="work-wrap" style="position: relative;">
+                                <img src="./img/jagat-seo.png" alt="" style="max-width: 100%;" class="color-work">
+                                <img src="./img/jagat-seo-grey.png" alt="" style="max-width: 100%;position: absolute; top:0;left:0;" class="grey-work">  
+                                <div class="wrapper-text mb-2 mb-lg-0">
+                                    <h3 class="h3Style my-md-3 my-2 text-start">Website SEO & Keyword</h3>
+                                    <p class="p4 mb-0 text-start">SEO OPTIMIZATION FOCUSED ON TARGETED KEYWORDS AND LEAD GENERATION <a href="https://drive.google.com/drive/folders/1aHQZnZOpeHPbIVa_6PA4-RmffgAkQX71?usp=sharing" class="red-font details-link" target="_blank">DETAILS</a> IF YOU'RE INTERESTED.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-porto-jagat">
+                            <div class="work-wrap" style="position: relative;">
+                                <img src="./img/jagat-seo.png" alt="" style="max-width: 100%;" class="color-work">
+                                <img src="./img/jagat-seo-grey.png" alt="" style="max-width: 100%;position: absolute; top:0;left:0;" class="grey-work">  
+                                <div class="wrapper-text mb-2 mb-lg-0">
+                                    <h3 class="h3Style my-md-3 my-2 text-start">Company Instagram Layout</h3>
+                                    <p class="p4 mb-0 text-start">DESIGNED TO DOCUMENT PRODUCT SHIPMENTS AND STRENGTHEN BRAND TRUST <a href="https://drive.google.com/drive/folders/12WgR1y05qS-zCO9vikILvBKx7Fih55qL?usp=sharing" class="red-font details-link" target="_blank">DETAILS</a> IF YOU'RE INTERESTED.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
         <div class="row d-flex flex-column-reverse flex-lg-row pt-lg-5 mb-lg-5 mb-sm-4 mb-3">
             <div class="col-lg-6 my-lg-auto">
                 <div>
@@ -417,7 +474,20 @@
 </div>
 
 
-<!-- HashMicro Modal Certificate-->
+<!-- Jagat Modal Certificate-->
+<div class="modal fade" id="paklaring-jagat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 900px;">
+        <div class="modal-content" style="background: none; border: none;">
+        <div class="modal-body mx-auto">
+            <img src="./img/SURAT PARKLARING KERJA PT JAGAT SAKSANA MAKMUR.webp" alt="" style="width:100%;max-width:900px;">
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Blimp Modal Certificate-->
 <div class="modal fade" id="paklaring-blimp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" style="max-width: 900px;">
         <div class="modal-content" style="background: none; border: none;">
@@ -457,6 +527,10 @@ $(document).ready(function(){
         $(".blimp-certificate").click(function(){
             $("#paklaring-blimp").modal("show");
         });
+
+        $(".jagat-certificate").click(function(){
+            $("#paklaring-jagat").modal("show");
+        });
     });
 
 // $(document).ready(function(){
@@ -482,6 +556,7 @@ $(document).ready(function(){
     $(document).ready(function() {
       var one = $('#hashmicro-project');
       var two = $('#blimp-project');
+      var three = $('#jagat-project');
       one.owlCarousel({
         margin: 40,
         loop: true,
@@ -530,6 +605,32 @@ $(document).ready(function(){
           },
         }
       })
+
+      three.owlCarousel({
+        margin: 40,
+        loop: true,
+        dots:true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false,
+            rtl:false,
+            autoplay:false,
+          },
+
+          992:{
+            dots:false,
+            items: 1,
+            nav: true,
+            rtl:true,
+            autoplay:true,
+            autoplayTimeout:7000,
+            autoplayHoverPause:true,
+          },
+        }
+      })
+
+    //   Penutup Script
     })
 
 
