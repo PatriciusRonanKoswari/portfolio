@@ -364,6 +364,97 @@ body{
     right: 14px;
 }
 
+
+
+
+/* SectionFreelancePortfolio */
+.SectionFreelancePortfolio{
+    padding: 0px 0px 100px 0px;
+}
+
+.freelance-item{
+    padding: 0px 60px;
+}
+
+.freelance-card-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.freelance-card{
+    height: 100%;
+}
+
+.freelance-thumb{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.freelance-thumb-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.freelance-label{
+    letter-spacing: 2px;
+}
+
+#freelance-project .owl-next{
+    position: absolute;
+    right: 55px;
+    bottom: 160px;
+    font-size: 60px;
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    background: rgb(158, 154, 154);
+    color: white;
+    opacity: 20%;
+    transition: all 0.25s ease-in-out;
+}
+
+#freelance-project:hover .owl-next{
+    opacity: 100%;
+}
+
+#freelance-project .owl-next span{
+    position: absolute;
+    top: -29px;
+    right: 14px;
+}
+
+#freelance-project .owl-prev{
+    display: none;
+}
+
+#freelance-project.owl-theme .owl-dots .owl-dot span{
+    width: 15px;
+    height: 3px;
+}
+
+@media (max-width: 991.4px){
+    .freelance-item{
+        padding: 0px 32px;
+    }
+}
+
+@media (max-width: 575.4px){
+    .SectionFreelancePortfolio{
+        padding: 0px 0px 60px 0px;
+    }
+
+    .freelance-item{
+        padding: 0px 20px;
+    }
+
+    #freelance-project .wrapper-text{
+        margin-top: 14px !important;
+    }
+}
+
 /* SectionSkills */
 .skillTitle{
     transform: translateY(80px);
