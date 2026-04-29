@@ -8,13 +8,13 @@ body{
 }
 
 .red-font{
-    color: #8a0e19;
+    color: #8a0e19!important;
     border-bottom: #8a0e19 1px solid;
     cursor: pointer;
 }
 
 .blue-font{
-    color: #087dbf;
+    color: #087dbf!important;
     border-bottom: #087dbf 1px solid;
     cursor: pointer;
 }
@@ -455,6 +455,10 @@ body{
     }
 }
 
+
+
+
+
 /* SectionSkills */
 .skillTitle{
     transform: translateY(80px);
@@ -488,7 +492,6 @@ body{
 }
 
 .details-link:hover{
-    color: #8a0e19;
     transform: translateY(-3px);
 }
 
