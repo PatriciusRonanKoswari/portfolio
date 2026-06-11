@@ -436,6 +436,10 @@ body{
 }
 
 @media (max-width: 991.4px){
+    .SectionFreelancePortfolio{
+        padding: 0px 0px 100px 0px;
+    }
+
     .freelance-item{
         padding: 0px 32px;
     }
