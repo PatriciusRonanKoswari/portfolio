@@ -2,6 +2,21 @@ body{
     background: black;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.scroll-progress{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: linear-gradient(90deg, #8a0e19, #087dbf);
+    z-index: 2000;
+    pointer-events: none;
+}
+
 @font-face {
     font-family: 'Arsenica';
     src: url(./font/arsenica/ArsenicaTrial-Medium.ttf);

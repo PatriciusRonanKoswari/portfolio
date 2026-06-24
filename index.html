@@ -8,7 +8,7 @@
     <meta name="keywords" content="patricius ronan koswari, ronan, ronan port website, portfolio website">
 
     <!-- css -->
-    <link rel="stylesheet" href="./style.css?v=3">
+    <link rel="stylesheet" href="./style.css?v=5">
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
@@ -31,6 +31,7 @@
 
 </head>
 <body>
+<div class="scroll-progress" aria-hidden="true"></div>
 
 <div class="SectionHero">
     <div class="container">
@@ -1032,6 +1033,16 @@
 
 <script>
 $(function () {
+    function showBootstrapModal(modalId) {
+        const modalElement = document.querySelector(modalId);
+
+        if (!modalElement || !window.bootstrap) {
+            return;
+        }
+
+        bootstrap.Modal.getOrCreateInstance(modalElement).show();
+    }
+
     // Modal triggers
     const modalMap = {
         ".hashmicro-certificate": "#myModal",
@@ -1041,12 +1052,16 @@ $(function () {
 
     $.each(modalMap, function (triggerClass, modalId) {
         $(triggerClass).on("click", function () {
-            $(modalId).modal("show");
+            showBootstrapModal(modalId);
         });
     });
 
     // Reusable carousel config
     function initCarousel(selector, options = {}) {
+        if (!$.fn.owlCarousel) {
+            return;
+        }
+
         const defaultConfig = {
             margin: 40,
             loop: true,
@@ -1106,6 +1121,7 @@ $(function () {
     });
 });
 </script>
+<script src="./javascript/main.js?v=3"></script>
     
 </body>
 </html>
